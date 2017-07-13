@@ -1,0 +1,29 @@
+{
+  "name": "business-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "set NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edian-reyes/business-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edian-reyes/business-landing/issues"
+  },
+  "homepage": "https://github.com/edian-reyes/business-landing#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "sendgrid": "^5.1.2"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}

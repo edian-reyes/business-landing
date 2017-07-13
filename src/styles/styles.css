@@ -1,20 +1,20 @@
 @font-face {
-  src: url('../fonts/Abel/Abel-Regular.ttf');
+  src: url('/fonts/Abel/Abel-Regular.ttf');
   font-family: 'Abel';
 }
 
 @font-face {
-  src: url('../fonts/Muli/Muli-Black.ttf');
+  src: url('/fonts/Muli/Muli-Black.ttf');
   font-family: 'MuliBlack';
 }
 
 @font-face {
-  src: url('../fonts/Muli/Muli-SemiBold.ttf');
+  src: url('/fonts/Muli/Muli-SemiBold.ttf');
   font-family: 'MuliSemiBold';
 }
 
 @font-face {
-  src: url('../fonts/Muli/Muli-Light.ttf');
+  src: url('/fonts/Muli/Muli-Light.ttf');
   font-family: 'MuliLight';
 }
 
