@@ -18,13 +18,13 @@ app.use(express.static(path.join(__dirname + '/src')))
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname + '/index.html'))
   const helper  = require('sendgrid').mail;
-  var fromEmail = new helper.Email('noreply@gmail.com');
-  var toEmail = new helper.Email('ereyes@pixnabilab.com');
+  var fromEmail = new helper.Email('from_email');
+  var toEmail = new helper.Email('to_email');
   var subject = "Sendgrid Email Test!";
   var content = new helper.Content('text/plain', 'Sengrid test sending emails');
   var mail = new helper.Mail(fromEmail, subject, toEmail, content);
   console.log('first step');
-  var sg = require('sendgrid')('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')
+  var sg = require('sendgrid')(SENGRID_API_KEY)
   console.log('API key');
   var request = sg.emptyRequest({
     method: 'POST',
